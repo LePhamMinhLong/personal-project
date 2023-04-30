@@ -78,7 +78,7 @@ a {
 
 .header-continue {
   position: sticky;
-  top: -0px;
+  top: 0px;
   z-index: 1;
 }
 
@@ -133,15 +133,18 @@ a {
   display: flex;
   align-items: center;
 }
-
+.row-list-1 .wrap-text-1 p {
+  font-size: 1.4rem;
+}
 .row-list-1 .line {
   background: #999696;
   height: 1px;
   width: 69%;
+  margin-left: auto;
 }
 
 .row-list-1 .btn-over {
-  margin-left: auto;
+  margin-left: 6px;
 }
 
 /* list shoes */
