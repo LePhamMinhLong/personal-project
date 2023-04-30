@@ -135,11 +135,12 @@ a {
 }
 .row-list-1 .wrap-text-1 p {
   font-size: 1.4rem;
+  white-space: nowrap;
 }
 .row-list-1 .line {
   background: #999696;
   height: 1px;
-  width: 69%;
+  width: 100%;
   margin-left: auto;
 }
 
