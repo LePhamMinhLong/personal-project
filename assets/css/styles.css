@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+
+  overflow-x: hidden;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+/* comom */
+a {
+  text-decoration: none;
+}
+.main-content {
+  max-width: calc(100% - 48px);
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header-1 */
+.header {
+  background: rgb(254, 242, 242);
+  height: 140px;
+}
+
+.header .body {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin-left: auto;
+}
+.nav .nav-1 {
+  margin-right: 24px;
+}
+.nav ul {
+  display: flex;
+  padding: 0 24px;
+}
+.header .logo {
+  margin-top: 24px;
+  width: 100px;
+  margin-left: 420px;
+}
+
+.header .hotline {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #000;
+}
+
+.header .nav a {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #000;
+}
+.header .action {
+  display: inline-block;
+  margin: 0 0 10px 8px;
+}
+/* header-2 */
+.header-continue {
+  background: #f83b3b;
+  height: 103px;
+  display: flex;
+  align-items: center;
+}
+
+.header-continue {
+  position: sticky;
+  top: -0px;
+  z-index: 1;
+}
+
+.header-continue ul a {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.header-continue .nav-continue ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-continue ul a:hover {
+  color: #f8f83b;
+}
+.banner {
+  width: 100%;
+}
+/*featured  */
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+.featured .title {
+  margin-top: 8px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.featured .sub-title {
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.featured .desc {
+  margin-top: 8px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* list */
+.row-list-1 {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.row-list-1 .wrap-text-1 {
+  display: flex;
+  align-items: center;
+}
+
+.row-list-1 .line {
+  background: #999696;
+  height: 1px;
+  width: 69%;
+}
+
+.row-list-1 .btn-over {
+  margin-left: auto;
+}
+
+/* list shoes */
+.list-shoes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list-shoes .item-shoes {
+  /* width: 300px; */
+}
+.item-shoes .shoes {
+  background: #f1f1f1;
+  margin-top: 24px;
+  padding: 24px 0;
+}
+.item-shoes {
+  position: relative;
+}
+.item-shoes::before {
+  position: absolute;
+  top: 25px;
+  content: "Sale 50%";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes .title {
+  margin-left: 30px;
+  margin-top: 8px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.item-shoes .stars {
+  margin-left: 80px;
+  margin-top: 8px;
+}
+
+.row-stars {
+  width: 20px;
+  height: 20px;
+}
+
+.item-shoes .sales {
+  margin-left: 90px;
+  margin-top: 8px;
+}
+.item-shoes .principal {
+  margin-left: 90px;
+  margin-top: 8px;
+  text-decoration: line-through;
+  opacity: 70%;
+}
+
+.item-shoes .buyer {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+
+  width: 150px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px #ee0000 solid;
+}
+
+.item-shoes .buyer:hover {
+  box-shadow: 3px 3px 1px #ee0000;
+}
+.item-shoes .buyer a {
+  color: #ff0000;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.item-shoes .icon-buy {
+  margin-left: 15px;
+  width: 30px;
+}
