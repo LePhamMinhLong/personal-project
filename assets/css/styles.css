@@ -17,7 +17,8 @@ html,
 body {
   scroll-behavior: smooth;
 }
-/* comom */
+/*=================================== comom=================================== */
+
 a {
   text-decoration: none;
 }
@@ -27,156 +28,8 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/* header-1 */
-.header {
-  background: rgb(254, 242, 242);
-  height: 140px;
-}
+/* các phần tên, sao, giá tiền của giày */
 
-.header .body {
-  display: flex;
-  align-items: center;
-}
-.nav {
-  margin-left: auto;
-}
-.nav .nav-1 {
-  margin-right: 24px;
-}
-.nav ul {
-  display: flex;
-  padding: 0 24px;
-}
-.header .logo {
-  margin-top: 24px;
-  width: 100px;
-  margin-left: 420px;
-}
-
-.header .hotline {
-  font-weight: 600;
-  font-size: 2rem;
-  color: #000;
-}
-
-.header .nav a {
-  font-weight: 600;
-  font-size: 2rem;
-  color: #000;
-}
-.header .action {
-  display: inline-block;
-  margin: 0 0 10px 8px;
-}
-/* header-2 */
-.header-continue {
-  background: #f83b3b;
-  height: 103px;
-  display: flex;
-  align-items: center;
-}
-
-.header-continue {
-  position: sticky;
-  top: 0px;
-  z-index: 1;
-}
-
-.header-continue ul a {
-  color: #fff;
-  font-size: 2rem;
-}
-
-.header-continue .nav-continue ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-continue ul a:hover {
-  color: #f8f83b;
-}
-.banner {
-  width: 100%;
-}
-/*featured  */
-.featured {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 8px;
-}
-.featured .title {
-  margin-top: 8px;
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.featured .sub-title {
-  margin-top: 8px;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.featured .desc {
-  margin-top: 8px;
-  font-size: 1.4rem;
-  font-weight: 500;
-}
-
-/* list */
-.row-list-1 {
-  margin-top: 24px;
-  display: flex;
-  align-items: center;
-}
-.row-list-1 .wrap-text-1 {
-  display: flex;
-  align-items: center;
-}
-.row-list-1 .wrap-text-1 p {
-  font-size: 1.4rem;
-  white-space: nowrap;
-}
-.row-list-1 .line {
-  background: #999696;
-  height: 1px;
-  width: 100%;
-  margin-left: auto;
-}
-
-.row-list-1 .btn-over {
-  margin-left: 6px;
-}
-
-/* list shoes */
-.list-shoes {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.list-shoes .item-shoes {
-  /* width: 300px; */
-}
-.item-shoes .shoes {
-  background: #f1f1f1;
-  margin-top: 24px;
-  padding: 24px 0;
-}
-.item-shoes {
-  position: relative;
-}
-.item-shoes::before {
-  position: absolute;
-  top: 25px;
-  content: "Sale 50%";
-  display: inline-block;
-  color: #fff;
-  background: #ff0000;
-  width: 70px;
-  height: 25px;
-  padding: 7px 15px 0px;
-}
 .item-shoes .title {
   margin-left: 30px;
   margin-top: 8px;
@@ -230,4 +83,986 @@ a {
 .item-shoes .icon-buy {
   margin-left: 15px;
   width: 30px;
+}
+/* phần row tên sản phẩm */
+.row-list-1 {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.row-list-1 .wrap-text-1 {
+  display: flex;
+  align-items: center;
+}
+.row-list-1 .wrap-text-1 p {
+  font-size: 1.4rem;
+  white-space: nowrap;
+}
+.row-list-1 .line {
+  background: #999696;
+  height: 1px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.row-list-1 .btn-over {
+  margin-left: 6px;
+}
+
+/* ===================================header-1 ================================*/
+.header {
+  background: rgb(254, 242, 242);
+  height: 140px;
+}
+
+.header .body {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin-left: auto;
+}
+.nav .nav-1 {
+  margin-right: 24px;
+}
+.nav ul {
+  display: flex;
+  padding: 0 24px;
+}
+.header .logo {
+  margin-top: 24px;
+  width: 100px;
+  margin-left: 420px;
+}
+
+.header .hotline {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #000;
+}
+
+.header .nav a {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #000;
+}
+.header .action {
+  display: inline-block;
+  margin: 0 0 10px 8px;
+}
+/* ================================header-2=========================== */
+.header-continue {
+  background: #f83b3b;
+  height: 103px;
+  display: flex;
+  align-items: center;
+}
+
+.header-continue {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.header-continue ul a {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.header-continue .nav-continue ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-continue ul a:hover {
+  color: #f8f83b;
+}
+/* ====================================banner=========================== */
+.banner {
+  width: 100%;
+}
+/*==========================================featured ================================== */
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+.featured .title {
+  margin-top: 8px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.featured .sub-title {
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.featured .desc {
+  margin-top: 8px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/*=================================== list========================== */
+
+/* list shoes-1 */
+.list-shoes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.item-shoes .shoes {
+  background: #f1f1f1;
+  margin-top: 24px;
+  padding: 24px 0;
+}
+.item-shoes-1 {
+  position: relative;
+}
+.item-shoes-1::before {
+  position: absolute;
+  top: 25px;
+  content: "Sale 50%";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-2 {
+  position: relative;
+}
+.item-shoes-2::before {
+  position: absolute;
+  top: 25px;
+  content: "Sale 50%";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-3 {
+  position: relative;
+}
+.item-shoes-3::before {
+  position: absolute;
+  top: 25px;
+  content: "Sale 50%";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-4 {
+  position: relative;
+}
+.item-shoes-4::before {
+  position: absolute;
+  top: 25px;
+  content: "Sale 50%";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-5 {
+  position: relative;
+}
+.item-shoes-5 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-5::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-6 {
+  position: relative;
+}
+
+.item-shoes-6 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-6::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-7 {
+  position: relative;
+}
+.item-shoes-7::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-7::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-7%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-8 {
+  position: relative;
+}
+.item-shoes-8::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-8::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-7%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-9 {
+  position: relative;
+}
+.item-shoes-9::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-9::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-7%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-10 {
+  position: relative;
+}
+.item-shoes-10 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-10::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-11 {
+  position: relative;
+}
+.item-shoes-11 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-11::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-12 {
+  position: relative;
+}
+.item-shoes-12::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-12::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-7%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-13 {
+  position: relative;
+}
+.item-shoes-13 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-13::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-14 {
+  position: relative;
+}
+.item-shoes-14 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-14::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-15 {
+  position: relative;
+}
+.item-shoes-15::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-15::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-19%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-16 {
+  position: relative;
+}
+.item-shoes-16 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-16::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-17 {
+  position: relative;
+}
+.item-shoes-17 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-17::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-18 {
+  position: relative;
+}
+.item-shoes-18 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-18::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-19 {
+  position: relative;
+}
+.item-shoes-19 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-19::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-20 {
+  position: relative;
+}
+.item-shoes-20::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-20::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-15%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-21 {
+  position: relative;
+}
+.item-shoes-21 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-21::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-22 {
+  position: relative;
+}
+.item-shoes-22 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-22::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-23 {
+  position: relative;
+}
+.item-shoes-23::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-23::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-15%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+
+.item-shoes-24 {
+  position: relative;
+}
+
+.item-shoes-24 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-24::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-25 {
+  position: relative;
+}
+.item-shoes-25::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-25::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-7%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-26 {
+  position: relative;
+}
+.item-shoes-26::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-26::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-7%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-27 {
+  position: relative;
+}
+.item-shoes-27 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-27::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-28 {
+  position: relative;
+}
+.item-shoes-28 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-28::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-29 {
+  position: relative;
+}
+.item-shoes-29::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-29::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-10%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-30 {
+  position: relative;
+}
+.item-shoes-30 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-30::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-31 {
+  position: relative;
+}
+.item-shoes-31::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-31::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-10%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-32 {
+  position: relative;
+}
+.item-shoes-32 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-32::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-33 {
+  position: relative;
+}
+.item-shoes-33 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-33::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-34 {
+  position: relative;
+}
+.item-shoes-34 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-34::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-35 {
+  position: relative;
+}
+.item-shoes-35::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-35::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-20%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-36 {
+  position: relative;
+}
+.item-shoes-36 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-36::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-37 {
+  position: relative;
+}
+.item-shoes-37 p.sales {
+  padding: 12px 0;
+}
+.item-shoes-37::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-38 {
+  position: relative;
+}
+.item-shoes-38::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-38::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-10%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-39 {
+  position: relative;
+}
+.item-shoes-39::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-39::after {
+  position: absolute;
+  top: 60px;
+  text-align: center;
+  content: "-10%";
+  display: inline-block;
+  color: #000000;
+  background: #ffff00;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
+}
+.item-shoes-40 {
+  position: relative;
+}
+.item-shoes-40 p.sales {
+  padding: 12px;
+}
+.item-shoes-40::before {
+  position: absolute;
+  top: 25px;
+  text-align: center;
+  content: "NEW";
+  display: inline-block;
+  color: #fff;
+  background: #ff0000;
+  width: 70px;
+  height: 25px;
+  padding: 7px 15px 0px;
 }
