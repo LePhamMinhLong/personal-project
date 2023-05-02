@@ -24,6 +24,7 @@ a {
 }
 .main-content {
   max-width: calc(100% - 48px);
+
   width: 1300px;
   margin-left: auto;
   margin-right: auto;
@@ -1065,4 +1066,160 @@ a {
   width: 70px;
   height: 25px;
   padding: 7px 15px 0px;
+}
+
+/* btn to view more products */
+.more-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+  padding: 30px 16px;
+  background: #ffffff;
+  border: 2px #ee0000 solid;
+  border-radius: 20px;
+  margin-left: 500px;
+  margin-top: 60px;
+  color: #ff0101;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.more-products:hover {
+  box-shadow: 0px 5px 3px #ee0000;
+}
+
+.voucher {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+  background: #ff0000;
+}
+
+.voucher .code {
+  margin-left: 10px;
+  color: #fff;
+}
+.voucher .enter-email {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  background: #fff;
+  padding: 10px 30px 10px 0px;
+  border-radius: 40px;
+}
+.voucher .enter-email p {
+  color: #494747;
+  font-size: 1.4rem;
+  margin-left: 8px;
+}
+.voucher .enter-email a {
+  color: #434343;
+  font-weight: 600;
+  display: inline-block;
+  background: #ffee00;
+  padding: 12px 40px;
+  margin-left: 100px;
+  border-radius: 40px;
+}
+.voucher-text {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #fff;
+}
+
+.voucher-text .text1 {
+}
+.voucher-text .text-voucher {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0 8px;
+  color: #fe0;
+}
+/* fotter */
+.fotter {
+  max-width: calc(100% - 48px);
+  display: block;
+  margin: 55px 0 0 24px;
+  padding: 50px 50px;
+}
+.fotter .row {
+  display: flex;
+}
+
+.fotter .row-top {
+  gap: 100px;
+}
+.fotter .heading {
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #1c1c1d;
+}
+
+.fotter .list,
+.fotter .desc {
+  margin-top: 42px;
+}
+
+.fotter .item {
+  margin-top: 18px;
+  /* white-space: normal; */
+}
+
+.fotter .item a,
+.fotter .desc {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #7a7a7e;
+  white-space: nowrap;
+}
+
+.fotter .desc {
+  white-space: normal;
+  line-height: 1.75;
+}
+
+.fotter .social {
+  display: flex;
+  /* justify-content: space-around; */
+
+  margin: 40px 0 0 -10px;
+  /* gap: 16px; */
+}
+
+.fotter .social-link {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px; */
+}
+
+.fotter .social-link + .social-link {
+  /* margin-left: 8px; */
+}
+.text-customer {
+  margin-top: 18px;
+  font-size: 2rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.number-phone {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+}
+.number-phone .number {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.link-logo img {
+  margin-left: -30px;
+  margin-top: -100px;
 }
