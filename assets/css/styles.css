@@ -1186,9 +1186,7 @@ a {
 
 .fotter .social {
   display: flex;
-  /* justify-content: space-around; */
-
-  margin: 40px 0 0 -10px;
+  margin-top: 24px;
   /* gap: 16px; */
 }
 
@@ -1222,4 +1220,25 @@ a {
 .link-logo img {
   margin-left: -30px;
   margin-top: -100px;
+}
+
+.sign-in-email {
+  margin-top: 24px;
+}
+
+.sign-in-text {
+  padding: 24px 8px;
+  background: #ffffff;
+  border: 2px #ff0000 solid;
+  border-radius: 10px;
+}
+
+.sign-in-text-2 {
+  text-align: center;
+  margin-top: 24px;
+  padding: 24px 0;
+  background: #ff0101;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
 }
